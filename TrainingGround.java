@@ -1,35 +1,54 @@
-public class TrainingGround {
-    public static void main() {
-        // for (int i = 0; i<10;){
-        // i=i++;
-        // System.out.println(i);
-        // }
-        // int i = 1;
-        // System.out.println(i);
-        // i = i++;
-        // System.out.println(i);
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Month;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
-        // int x1 = 50, x2 = 75;
-        // boolean b = x1 >= x2;
-        // if (b == true)
+public class TrainingGround {
+
+    // public void roar(String roar1, StringBuilder roar2) {
+    // roar1.concat("!!!");
+    // roar2.append("!!!");
+    // }
+
+    // public static void main(String[] args) {
+
+    // String roar1 = "roar";
+    // StringBuilder roar2 = new StringBuilder("roar");
+    // new TrainingGround().roar(roar1, roar2);
+    // System.out.println(roar1 + " " + roar2);
+    // }
+
+    public static void main(String[] args) {
+        // String letters = "abcdef";
+        // System.out.println(letters.length());
+        // System.out.println(letters.charAt(3));
+        // System.out.println(letters.charAt(6));
+
+        // StringBuilder b = new StringBuilder("rumble");
+        // // StringBuilder b = "rumble"; //Error
+        // b.append(4).deleteCharAt(3).delete(3, b.length() - 1);
         // System.out.println(b);
 
-        // int c = 7;
-        // int result = 4;
-        // result -= 2;
-        // System.out.println(result);
-        int result = 10;
-        do {
-            System.out.println(result);
-            result -= 1;
-            System.out.println(result);
-        } while (result >= 0);
+        // ArrayList l = new ArrayList();
+        // int length = l.size();
+        // System.out.println(l.size());
 
-        do {
-            int y = 1;
-            System.out.println(y++ + " ");
-        } while (y <= 10);
-
+        // List<String> hex = Arrays.asList("30", "8", "3A", "FF");
+        // Collections.sort(hex);
+        // int x = Collections.binarySearch(hex, "8");
+        // int y = Collections.binarySearch(hex, "3A");
+        // int z = Collections.binarySearch(hex, "4F");
+        // System.out.println(x + " " + y + " " + z);
+int i = 0;
+        for (;i<10;){
+            i++;
+            System.out.println(i);
+        }
     }
-
 }
