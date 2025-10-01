@@ -10,13 +10,14 @@ public class Task8 {
         int[] inputParameters = new int[count];
 
         for (int x = 0; x < inputParameters.length; x++) {
+            System.out.println("Please enter a number");
             inputParameters[x] = sc.nextInt();
         }
 
-        Nums(inputParameters);
+        nums(inputParameters);
     }
 
-    static int Nums(int... numbers) {
+    static int nums(int... numbers) {
         for (int num : numbers) {
             System.out.println("With number " + num);
             int sum = 0;

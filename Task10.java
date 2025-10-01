@@ -6,7 +6,7 @@ public class Task10 {
                 new Student("Kevin", "Spacey"),
         };
         for (Student student : students) {
-            student.PrintFullName();
+            student.printFullName();
         }
     }
 }
@@ -20,7 +20,7 @@ class Student {
         this.lastName = lastName;
     }
 
-    public void PrintFullName() {
+    public void printFullName() {
         System.out.println(firstName + " " + lastName);
     }
 }
