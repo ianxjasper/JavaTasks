@@ -5,7 +5,7 @@ public class Task10 {
                 new Student("Brad", "Pitt"),
                 new Student("Kevin", "Spacey"),
         };
-        for (Student student : students){
+        for (Student student : students) {
             student.PrintFullName();
         }
     }
@@ -14,11 +14,13 @@ public class Task10 {
 class Student {
     private String firstName;
     private String lastName;
+
     public Student(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-    public void PrintFullName(){
+
+    public void PrintFullName() {
         System.out.println(firstName + " " + lastName);
     }
 }
