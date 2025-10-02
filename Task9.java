@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import static java.lang.Math.*;
+// import static java.lang.Math.*;
 
 public class Task9 {
     public static void main(String[] args) {
@@ -32,6 +32,7 @@ public class Task9 {
         }
         System.out.println(
                 "The quotient of " + numbers[0] + " and " + numbers[1] + " is " + divide(numbers[0], numbers[1]));
+        sc.close();
     }
 
     public static int add(int a, int b) {

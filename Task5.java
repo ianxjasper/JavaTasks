@@ -12,6 +12,8 @@ public class Task5 {
         myNum2 = inputNumber.nextInt();
         myNum3 = inputNumber.nextInt();
 
+        inputNumber.close();
+
         largetNumber = myNum1;
         if (largetNumber < myNum2)
             largetNumber = myNum2;

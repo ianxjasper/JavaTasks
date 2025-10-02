@@ -15,6 +15,7 @@ public class Task8 {
         }
 
         nums(inputParameters);
+        sc.close();
     }
 
     static int nums(int... numbers) {
