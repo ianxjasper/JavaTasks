@@ -14,6 +14,7 @@ public class Task12 {
             p.scale();
             p.print();
         }
+        sc.close();
     }
 }
 
