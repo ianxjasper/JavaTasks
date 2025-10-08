@@ -45,8 +45,8 @@ public class TrainingGround {
         // int y = Collections.binarySearch(hex, "3A");
         // int z = Collections.binarySearch(hex, "4F");
         // System.out.println(x + " " + y + " " + z);
-int i = 0;
-        for (;i<10;){
+        int i = 0;
+        for (; i < 10;) {
             i++;
             System.out.println(i);
         }
